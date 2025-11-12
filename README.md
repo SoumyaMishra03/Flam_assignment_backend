@@ -58,4 +58,14 @@ Config: Runtime configuration values
 
 Job Detail: Lifecycle info, stdout/stderr, log download
 --------------------------------------------------------------------------------------------------------------------------------------------
+Used SQLite database: 
+- It stores all the jobs with their IDs, commands, and lifecycle states.
+
+- It records timestamps and durations so the dashboard can show metrics and trends.
+
+- It holds configuration values like retry limits that both the CLI and dashboard can update or read.
+
+- It provides a single source of truth so that the CLI, workers, and FastAPI dashboard are all working off the same data.
+
+---------------------------------------------------------------------------------------------------------------------------------------------
 Video 1 and 2 have been added for better understanding of the application
