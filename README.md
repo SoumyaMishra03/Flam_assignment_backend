@@ -58,3 +58,4 @@ Config: Runtime configuration values
 
 Job Detail: Lifecycle info, stdout/stderr, log download
 --------------------------------------------------------------------------------------------------------------------------------------------
+Video 1 and 2 have been added for better understanding of the application
